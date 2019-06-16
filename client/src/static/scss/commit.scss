@@ -39,62 +39,7 @@ main {
         border-bottom-right-radius: 15%;
         box-sizing: border-box;
         padding-top: pxTorem(25px);
-        .header-con{
-            width: 100%;
-            padding: 0 pxTorem(14px);
-            box-sizing: border-box;
-            color: #fff;
-            dl {
-                display: flex;
-    
-                dt {
-                    width: pxTorem(50px);
-                    height: pxTorem(50px);
-                    margin-right: pxTorem(16px);
-    
-                    img {
-                        width: 100%;
-                        border-radius: 50%;
-                    }
-    
-                    flex-shrink: 0;
-                }
-    
-                dd {
-                    flex: 1;
-                    font-size: pxTorem(14px);
-                    display: flex;
-                    padding-right: pxTorem(16px);
-                    align-items: center;
-                    justify-content: space-around;
-    
-                    .header-con-left {
-                        width: 80%;
-    
-                        p {
-                            width: 100%;
-                            height: pxTorem(25px);
-                            display: flex;
-                            align-items: center;
-    
-                            span {
-                                flex: 1;
-                            }
-    
-                            span:nth-child(1) {
-                                text-align: left;
-                                color: rgba(255, 255, 255, 0.7)
-                            }
-    
-                            span:nth-child(2) {
-                                text-align: left;
-                                color: rgba(255, 255, 255, 0.8)
-                            }
-                        }
-                    }
-                }
-            }
-        }
+       
     }
 
     .main-item {

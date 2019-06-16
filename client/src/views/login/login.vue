@@ -71,15 +71,15 @@ export default {
                      window.localStorage.setItem('token',token);
                      this.$router.back();
                  }).catch(error=>{
-                     alert(error.response.data.message)
+                    alert(error.response.data.message)
                  })
             }else{
-                alert("用户名或密码不能为空")
+                console.log(this)
+                alter("用户名或密码不能为空")
             }
         }
     },
     created(){
-
     },
     mounted(){
 

@@ -1,26 +1,10 @@
 <template>
     <div class="container">
-       
-                 <headers :flag="true" :flag2="false">{{$route.params.type=="overtime"?"办公室加班申请表":"办公室休假申请表"}}</headers>
-           
+                 <my-header :flag="true" :flag2="false">{{$route.params.type=="overtime"?"办公室加班申请表":"办公室休假申请表"}}</my-header>
         <main>
              <div class="header">
-               <div class="header-con">
-                   <dl>
-                       <dt>
-                            <img :src="userinfo.avatar"/>
-                       </dt>
-                       <dd>
-                           <div class="header-con-left">
-                                <p><span>申请人姓名</span><span>{{userinfo.nickname}}</span></p>
-                                <p><span>直接主管</span><span>王指出</span></p>
-                           </div>
-                           <i class="iconfont icon-chevron-thin-right"></i>
-                       </dd>
-                   </dl>
-              </div>
+                 <header-con :userinfo="userinfo"/>
              </div>
-
               <div class="main-item">
                    <h2>申请信息</h2>
                    <p>
@@ -88,18 +72,16 @@
     </div>
 </template>
 <script>
-import footers from "../../../components/footers";
-import headers from "../../../components/headers";
 import {mapState,mapActions} from "vuex";
+import headerCon from "./component/header_con";
 import IsFile from "../../../utils/isFlie";
 import api from "../../../api/index";
 export default {
-    props:{
+    props:{ 
 
     },
     components:{
-        headers,
-        footers,
+        headerCon
     },
     data(){
         return {

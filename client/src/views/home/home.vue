@@ -1,6 +1,6 @@
 <template>
     <div class="container">
-        <headers :flag="true" :flag2="true">加班/休假</headers>
+        <my-header :flag="true" :flag2="true">加班/休假</my-header>
          <navlist @changeStatus="titleStatus"></navlist>
           <todilist @typechange="changetype" :tag="dataoptions.type"></todilist>
          <main class="main">
@@ -24,7 +24,6 @@
     </div>
 </template>
 <script>
-import headers from "../../components/headers.vue";//头部
 import api from "../../api/index";
 import todilist from "./components/todilist";//加班休假
 import navlist from "./components/navlist";//待处理导航
@@ -37,7 +36,6 @@ export default {
 
     },
     components:{
-        headers,
         todilist,
         navlist,
         applyItem,
