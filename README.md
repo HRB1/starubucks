@@ -76,10 +76,11 @@ npm start ————————————npm run dev
 >>>>>>>moduls——模块目录
 
 >>>>>utils——封装公共方法目录
+>>>>>directives——自定义指令
 
 >>>>>views——存放视图目录
 
->>>>>App.vue——视图出口文件
+>>>>>App.vue——视图出口文件,根组件
 
 >>>>>main.js——项目入口文件
 
