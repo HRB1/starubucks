@@ -17,22 +17,30 @@
 <h4>一、下载资源包</h4>
 
 ````
+    //第一种:
     https://github.com/HRB1/starubucks.git
+
+    //第二种：通过git
+    git clone https://github.com/HRB1/starubucks.git
+
+    cd 目录
+
+    
 
 ````
 
 <h4>二、下载第三方包和插件</h4>
 
-   //下载完项目后，需要在client目录中，cmd打开终端，执行：
-
+  
+    //下载完项目后，需要在client目录中，cmd打开终端，执行：
        npm install   ——————npm i
-       
-   //下载所有依赖的第三方包和插件
+    //下载所有依赖的第三方包和插件
+  
 
 <h4>三、运行服务</h4>
 
-//在client目录下，打开终端执行：
 ````
+//在client目录下，打开终端执行：
 npm start ————————————npm run dev
 ````
 
