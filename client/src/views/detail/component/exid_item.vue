@@ -48,6 +48,41 @@ export default {
     }
 }
 </script>
-<style scoped lang="">
+<style scoped lang="scss">
+@import "../../../static/scss/common";
+ .main-item {
+        width: 90%;
+        border-radius: pxTorem(10px);
+        background: #fff;
+        height: pxTorem(188px);
+        box-shadow: 0px 0px 4px 2px #ccc;
+        margin: 0 auto;
+        margin-top: pxTorem(-30px);
+        h2 {
+            width: 100%;
+            height: pxTorem(40px);
+            padding: 0 pxTorem(15px);
+            display: flex;
+            align-items: center;
+            font-size: pxTorem(14px);
+            border-bottom: 1px solid #ccc;
+        }
 
+        p {
+            display: flex;
+            align-items: center;
+            padding: 0 pxTorem(15px);
+            font-size: pxTorem(14px);
+            height: pxTorem(27px);
+
+            span {
+                flex: 1;
+            }
+
+            span:nth-child(2) {
+                display: flex;
+                justify-content: flex-end;
+            }
+        }
+    }
 </style>
