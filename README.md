@@ -25,7 +25,7 @@
 
     cd 目录
 
-    
+
 
 ````
 
@@ -93,7 +93,7 @@ npm start ————————————npm run dev
 
 >>>README.md ——说明文件
 
->server——后台的文件组目录
+>server——后台的文件目录
 
 
 
