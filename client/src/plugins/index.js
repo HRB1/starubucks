@@ -6,7 +6,7 @@ export default {
         //header组件
         Vue.component("my-header",Home);
         Vue.component("my-footer",Footers)
-        console.log(Vue.prototype)
+        // console.log(Vue.prototype)
         //alter弹框全局组件
         Vue.prototype.alters=(text)=>{
             let AlterModel=Vue.extend(alterModel);

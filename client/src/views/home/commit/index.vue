@@ -18,13 +18,18 @@
                             </el-date-picker>
                         </span>
                     </p>
-                   <p><span>{{title}}类型</span><span><select ref="select">
-                       <option value="-1">{{title}}类型</option>
-                        <option  v-for="(item,ind) in $route.params.type=='overtime'?typeovertime:typevacation" 
-                        :key="ind"
-                        :value="item.id"
-                        >{{item.title}}</option>
-                       </select></span></p>
+                   <p><span>{{title}}类型</span>
+                        <span>
+                            <select ref="select">
+                                <option value="-1">{{title}}类型</option>
+                                <option  v-for="(item,ind) in $route.params.type=='overtime'?typeovertime:typevacation" 
+                                    :key="ind"
+                                    :value="item.id"
+                                    >{{item.title}}
+                                </option>
+                            </select>
+                        </span>
+                    </p>
                    <p><span>{{title}}起始时间</span> <span>
                             <el-date-picker
                                  arrow-control
