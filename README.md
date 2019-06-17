@@ -102,9 +102,6 @@ npm start ————————————npm run dev
 
 
 
-<h2>二维码展示</h2>
-
-<img src=""/>
 
 
 
