@@ -14,7 +14,7 @@
 <h2>技术栈</h2>
 
 ````
-`vue` `vuex` `vue-router-dom` `scss` `webpack` 
+`vue` `vuex` `vue-router-dom` `scss` `webpack` `flex` `ES6`
 ````
 
 <h2>项目运行</h2>
